@@ -8,7 +8,10 @@ Generate JWT Token using Unix command line tools
 #########################################
 
 $ jwt '{"alg":"HS256","typ":"JWT"}' '{"aud":"mobile","exp":1470646848,"iss":"token.service","sub":"travis"}' 'secreto'
+```
 
+### Output
+```bash
 copied to clipboard!
 
 JWT token:
