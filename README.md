@@ -1,6 +1,12 @@
 # jwt-token-generator
 Generate JWT Token using Unix command line tools
 
+### Installation
+##### Homebrew
+Comming soon!
+##### apt
+Comming soon!
+
 ### Usage
 ```bash
 #########################################
