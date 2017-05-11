@@ -12,9 +12,9 @@ $ mv jwt-token-generator/Debian/jwt /usr/local/bin/  # Debian
 $ jwt '{"alg":"HS256","typ":"JWT"}' '{"aud":"mobile","exp":1470646848,"iss":"token.service","sub":"travis"}' 'secreto'
 ```
 #### Homebrew
-Comming soon!
-#### apt
-Comming soon!
+> Comming soon!
+#### Apt
+> Comming soon!
 
 ### Usage
 ```bash
