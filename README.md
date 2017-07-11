@@ -6,10 +6,7 @@ Generate JWT Token using Unix command line tools
 ```bash
 $ git clone "https://github.com/clarketm/jwt-token-generator.git"
 
-$ mv jwt-token-generator/Mac/jwt /usr/local/bin/     # Mac
-$ mv jwt-token-generator/Debian/jwt /usr/local/bin/  # Debian
-
-$ jwt '{"alg":"HS256","typ":"JWT"}' '{"aud":"mobile","exp":1470646848,"iss":"token.service","sub":"travis"}' 'secreto'
+$ cd jwt-token-generator && sh install.sh
 ```
 #### Homebrew
 > Comming soon!
