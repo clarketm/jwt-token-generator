@@ -8,7 +8,8 @@ SCRIPT='jwt'
 
 DARWIN='darwin'
 LINUX='linux'
-X86_64='x86_64'
+
+ARCH_64='amd64'
 
 BUILD_DIR=
 
@@ -30,7 +31,7 @@ echo "$OS operating system detected"
 # Check machine architecture
 case "$ARCH" in
   [Xx]86*|[Xx]86[-_]64*)
-    BUILD_DIR="$BUILD_DIR-$X86_64"
+    BUILD_DIR="$BUILD_DIR-$ARCH_64"
   ;;
   *)
     echo "unknown machine architecture: $ARCH" >&2
