@@ -6,7 +6,7 @@ Generate JWT Token using Unix command line tools
 ```bash
 $ git clone "https://github.com/clarketm/jwt-token-generator.git"
 
-$ cd jwt-token-generator && sh install.sh
+$ cd jwt-token-generator && sudo sh install.sh
 ```
 #### Homebrew
 > Comming soon!
