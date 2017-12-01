@@ -56,7 +56,6 @@ if ! type "$SCRIPT" > /dev/null 2>&1; then
   copy_script
 else
   read -r -p "$SCRIPT already exists on your PATH. Do you still want to install? [N/y] " REPLY
-  echo
   if [ "$REPLY" = 'y' ] || [ "$REPLY" = 'Y' ]; then
     copy_script
   else
