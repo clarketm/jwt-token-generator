@@ -55,9 +55,9 @@ copy_script () {
 if ! type "$SCRIPT" > /dev/null 2>&1; then
   copy_script
 else
-  read -r -n1 -p "$SCRIPT already exists on your PATH. Do you still want to install? [N/y] "
+  read -r -p "$SCRIPT already exists on your PATH. Do you still want to install? [N/y] " REPLY
   echo
-  if [ "$REPLY" == 'y' ] || [ "$REPLY" == 'Y' ]; then
+  if [ "$REPLY" = 'y' ] || [ "$REPLY" = 'Y' ]; then
     copy_script
   else
     echo "setup aborted" >&2
